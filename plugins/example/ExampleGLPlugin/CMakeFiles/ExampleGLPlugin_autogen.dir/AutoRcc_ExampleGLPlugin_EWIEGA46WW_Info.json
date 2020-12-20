@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/ExampleGLPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleGLPlugin",
+	"CMAKE_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master",
+	"INCLUDE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/ExampleGLPlugin_autogen/include",
+	"INCLUDE_DIR_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/ExampleGLPlugin_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/ExampleGLPlugin_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/ExampleGLPlugin_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/ExampleGLPlugin_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleGLPlugin/info.json",
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleGLPlugin/images/icon.png"
+	],
+	"LOCK_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/CMakeFiles/ExampleGLPlugin_autogen.dir/AutoRcc_ExampleGLPlugin_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "ExampleGLPlugin" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_ExampleGLPlugin.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/CMakeFiles/ExampleGLPlugin_autogen.dir/AutoRcc_ExampleGLPlugin_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/CMakeFiles/ExampleGLPlugin_autogen.dir/AutoRcc_ExampleGLPlugin_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/CMakeFiles/ExampleGLPlugin_autogen.dir/AutoRcc_ExampleGLPlugin_EWIEGA46WW_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/CMakeFiles/ExampleGLPlugin_autogen.dir/AutoRcc_ExampleGLPlugin_EWIEGA46WW_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleGLPlugin/CMakeFiles/ExampleGLPlugin_autogen.dir/AutoRcc_ExampleGLPlugin_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleGLPlugin/ExampleGLPlugin.qrc",
+	"VERBOSITY" : 0
+}

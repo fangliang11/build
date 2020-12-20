@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\build\CMakeFiles\d55829131b5e863c90c1b6dc4bf787c1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98599B12-9B2B-354E-9877-00EE1B8153C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC152720-F55D-34DD-B680-5BE47AB59FE0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>QCC_DB_LIB</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QCC_DB_LIB.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QCC_DB_LIBd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QCC_DB_LIB.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QCC_DB_LIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QCC_DB_LIB.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QCC_DB_LIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QCC_DB_LIB.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QCC_DB_LIB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="Debug";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"Debug\";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target QCC_DB_LIB</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/QCC_DB_LIB_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>extern\CCCoreLib\Debug\CCCoreLibd.lib;..\CCFbo\Debug\CC_FBO_LIBd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrentd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensionsd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Cored.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Guid.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/Debug/QCC_DB_LIBd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/Debug/QCC_DB_LIBd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="Release";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"Release\";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target QCC_DB_LIB</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/QCC_DB_LIB_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>extern\CCCoreLib\Release\CCCoreLib.lib;..\CCFbo\Release\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/Release/QCC_DB_LIB.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/Release/QCC_DB_LIB.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="MinSizeRel";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"MinSizeRel\";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target QCC_DB_LIB</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/QCC_DB_LIB_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>extern\CCCoreLib\MinSizeRel\CCCoreLib.lib;..\CCFbo\MinSizeRel\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/MinSizeRel/QCC_DB_LIB.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/MinSizeRel/QCC_DB_LIB.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR="RelWithDebInfo";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QCC_DB_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";QCC_DB_LIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target QCC_DB_LIB</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/QCC_DB_LIB_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>extern\CCCoreLib\RelWithDebInfo\CCCoreLib.lib;..\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/RelWithDebInfo/QCC_DB_LIB.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/RelWithDebInfo/QCC_DB_LIB.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\cmake\InstallCGALDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\cmake\InstallCGALDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\cmake\InstallCGALDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\cmake\InstallCGALDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccWaveform.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\cc2DLabel.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\cc2DViewportLabel.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\cc2DViewportObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccAdvancedTypes.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccArray.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccBasicTypes.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccBBox.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccBox.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccCameraSensor.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccChunk.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccClipBox.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccColorRampShader.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccColorScale.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccColorScalesManager.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccColorTypes.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccCone.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccCoordinateSystem.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccCustomObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccCylinder.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccDepthBuffer.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccDish.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccDrawableObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccExternalFactory.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccExtru.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccFacet.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccFastMarchingForNormsDirection.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccFileUtils.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccFlags.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccFrustum.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGBLSensor.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGenericGLDisplay.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGenericMesh.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGenericPointCloud.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGenericPrimitive.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGLDrawContext.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGLMatrix.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGLMatrixTpl.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccGriddedTools.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccHObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccHObjectCaster.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccImage.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccIncludeGL.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccIndexedTransformation.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccIndexedTransformationBuffer.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccInteractor.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccKdTree.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccLog.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccMaterial.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccMaterialSet.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccMesh.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccMeshGroup.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccMinimumSpanningTreeForNormsDirection.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccNormalCompressor.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccNormalVectors.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccOctree.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccOctreeProxy.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccOctreeSpinBox.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccPlanarEntityInterface.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccPlane.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccPointCloud.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccPointCloudInterpolator.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccPointCloudLOD.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccPolyline.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccProgressDialog.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccQuadric.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccRasterGrid.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccScalarField.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccSensor.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccSerializableObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccShiftedObject.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccSingleton.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccSphere.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccSubMesh.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccTorus.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\ccViewportParameters.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include\qCC_db.h" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\cc2DLabel.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\cc2DViewportLabel.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\cc2DViewportObject.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccAdvancedTypes.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccBBox.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccBox.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccCameraSensor.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccClipBox.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccColorRampShader.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccColorScale.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccColorScalesManager.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccColorTypes.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccCone.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccCoordinateSystem.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccCylinder.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccDepthBuffer.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccDish.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccDrawableObject.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccExternalFactory.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccExtru.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccFacet.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccFastMarchingForNormsDirection.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccGBLSensor.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccGenericMesh.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccGenericPointCloud.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccGenericPrimitive.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccGriddedTools.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccHObject.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccHObjectCaster.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccImage.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccIndexedTransformation.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccIndexedTransformationBuffer.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccKdTree.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccLog.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccMaterial.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccMaterialSet.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccMesh.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccMeshGroup.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccMinimumSpanningTreeForNormsDirection.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccNormalCompressor.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccNormalVectors.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccObject.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccOctree.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccOctreeProxy.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccOctreeSpinBox.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccPlanarEntityInterface.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccPlane.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccPointCloud.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccPointCloudInterpolator.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccPointCloudLOD.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccPolyline.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccProgressDialog.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccQuadric.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccRasterGrid.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccScalarField.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccSensor.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccShiftedObject.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccSphere.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccSubMesh.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccTorus.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccViewportParameters.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\src\ccWaveform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ZERO_CHECK.vcxproj">
+      <Project>{5A2873B6-733E-3C32-91C7-162677C95F6F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\CCCoreLib.vcxproj">
+      <Project>{CFFA970F-31AF-3E06-8336-2F71346C9F8B}</Project>
+      <Name>CCCoreLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCFbo\CC_FBO_LIB.vcxproj">
+      <Project>{5D628DD9-8F36-30D9-9C65-4083E840E7F0}</Project>
+      <Name>CC_FBO_LIB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

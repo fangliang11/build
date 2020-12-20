@@ -1,0 +1,81 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenMP.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5OpenGLExtensions/Qt5OpenGLExtensionsConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Svg/Qt5SvgConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/CMakeLists.txt
+E:/Projects/DownloadProjects/CloudCompare-master/build/CMakeFiles/3.19.1/CMakeCCompiler.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/build/CMakeFiles/3.19.1/CMakeCXXCompiler.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/build/CMakeFiles/3.19.1/CMakeRCCompiler.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/build/CMakeFiles/3.19.1/CMakeSystem.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/AllSupport.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/CMakeExternalLibs.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/CMakeInclude.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/CMakePolicies.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/CMakeSetCompilerOptions.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/DeployQt.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/Install.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/OculusSupport.cmake

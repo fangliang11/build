@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6FC7A965-31D4-3F4C-A6D7-DFA36DE0D479}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ccViewer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ccViewer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ccViewer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ccViewer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ccViewer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ccViewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ccViewer</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/ccViewer_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E copy E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/ccViewer.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/deployqt/ccViewer.exe
+if %errorlevel% neq 0 goto :cmEnd
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\windeployqt.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/deployqt/ccViewer.exe --no-angle --no-opengl-sw --no-quick-import --no-system-d3d-compiler --concurrent --verbose=1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libs\CCAppCommon\Debug\CCAppCommond.lib;..\libs\CCPluginAPI\Debug\CCPluginAPId.lib;..\libs\qCC_glWindow\Debug\QCC_GL_LIBd.lib;..\libs\qCC_io\Debug\QCC_IO_LIBd.lib;..\libs\qCC_db\Debug\QCC_DB_LIBd.lib;..\libs\qCC_db\extern\CCCoreLib\Debug\CCCoreLibd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrentd.lib;..\libs\CCFbo\Debug\CC_FBO_LIBd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensionsd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Cored.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\qtmaind.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Guid.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Cored.lib;..\libs\qCC_io\extern\dxflib\Debug\dxflibd.lib;..\libs\qCC_io\extern\shapelib\Debug\shapelibd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Debug/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ccViewer</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/ccViewer_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E copy E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/ccViewer.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/deployqt/ccViewer.exe
+if %errorlevel% neq 0 goto :cmEnd
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\windeployqt.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/deployqt/ccViewer.exe --no-angle --no-opengl-sw --no-quick-import --no-system-d3d-compiler --concurrent --verbose=1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libs\CCAppCommon\Release\CCAppCommon.lib;..\libs\CCPluginAPI\Release\CCPluginAPI.lib;..\libs\qCC_glWindow\Release\QCC_GL_LIB.lib;..\libs\qCC_io\Release\QCC_IO_LIB.lib;..\libs\qCC_db\Release\QCC_DB_LIB.lib;..\libs\qCC_db\extern\CCCoreLib\Release\CCCoreLib.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;..\libs\CCFbo\Release\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\qtmain.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;..\libs\qCC_io\extern\dxflib\Release\dxflib.lib;..\libs\qCC_io\extern\shapelib\Release\shapelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/Release/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ccViewer</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/ccViewer_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E copy E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/ccViewer.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/deployqt/ccViewer.exe
+if %errorlevel% neq 0 goto :cmEnd
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\windeployqt.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/deployqt/ccViewer.exe --no-angle --no-opengl-sw --no-quick-import --no-system-d3d-compiler --concurrent --verbose=1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libs\CCAppCommon\MinSizeRel\CCAppCommon.lib;..\libs\CCPluginAPI\MinSizeRel\CCPluginAPI.lib;..\libs\qCC_glWindow\MinSizeRel\QCC_GL_LIB.lib;..\libs\qCC_io\MinSizeRel\QCC_IO_LIB.lib;..\libs\qCC_db\MinSizeRel\QCC_DB_LIB.lib;..\libs\qCC_db\extern\CCCoreLib\MinSizeRel\CCCoreLib.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;..\libs\CCFbo\MinSizeRel\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\qtmain.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;..\libs\qCC_io\extern\dxflib\MinSizeRel\dxflib.lib;..\libs\qCC_io\extern\shapelib\MinSizeRel\shapelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/MinSizeRel/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CC_VIEWER;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\plugins;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\..\qCC;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCAppCommon\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC for target ccViewer</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/ccViewer_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E remove_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/deployqt
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E copy E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/ccViewer.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/deployqt/ccViewer.exe
+if %errorlevel% neq 0 goto :cmEnd
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\windeployqt.exe E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/deployqt/ccViewer.exe --no-angle --no-opengl-sw --no-quick-import --no-system-d3d-compiler --concurrent --verbose=1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\libs\CCAppCommon\RelWithDebInfo\CCAppCommon.lib;..\libs\CCPluginAPI\RelWithDebInfo\CCPluginAPI.lib;..\libs\qCC_glWindow\RelWithDebInfo\QCC_GL_LIB.lib;..\libs\qCC_io\RelWithDebInfo\QCC_IO_LIB.lib;..\libs\qCC_db\RelWithDebInfo\QCC_DB_LIB.lib;..\libs\qCC_db\extern\CCCoreLib\RelWithDebInfo\CCCoreLib.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;..\libs\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\qtmain.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;..\libs\qCC_io\extern\dxflib\RelWithDebInfo\dxflib.lib;..\libs\qCC_io\extern\shapelib\RelWithDebInfo\shapelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/ccViewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/RelWithDebInfo/ccViewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ui_templates\ccviewer.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_ccviewer.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewer.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewer.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewer.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_ccviewer.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewer.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewer.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewer.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_ccviewer.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewer.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewer.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewer.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_ccviewer.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewer.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewer.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewer.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ui_templates\ccviewerAbout.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_ccviewerAbout.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewerAbout.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewerAbout.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewerAbout.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_ccviewerAbout.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewerAbout.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewerAbout.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewerAbout.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_ccviewerAbout.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewerAbout.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewerAbout.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewerAbout.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_ccviewerAbout.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\bin\uic.exe -o E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/ui_ccviewerAbout.h E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/ui_templates/ccviewerAbout.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewerAbout.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\qCC\icons.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_icons.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\bin\rcc.exe --name icons --output E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/qrc_icons.cpp E:/Projects/DownloadProjects/CloudCompare-master/qCC/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\donate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenterAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\theme\snowman.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-closed.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-end.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-more.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-open.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\vline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\gamepad.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\restore.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\square.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\interactors.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\oculus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\nvidia.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSwapUpDown.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\unfoldSmall.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStereo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSORFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCSVFile.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSphere.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLevel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGrid.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\sectionExtraction.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\orthoSections.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccExit.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFullScreen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSunLight.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBox.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxMultExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxSingleExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGear.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCenteredPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOrthoMode32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewerBasedPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbAreaLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbViewportSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCalibratedImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMaterialSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLockSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbPolylineSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOff.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbGBLSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCamSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallTrash.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRectangleSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\im3DxLogo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPolygonSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCancel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPause.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointProperties.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointsAngle.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallReset.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentOut.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallValidate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallBasket.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRevert.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointListPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSfArithmetic.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAddConstSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCCExtract.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClone.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudCloudDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudMeshDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudPrimitiveDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccComputeStat.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDeleteSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFilterByValue.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMerge.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGaussianFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGlobalZoom.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGradient.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccHistogram.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccInteractiveTransformation.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAlign.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccRegister.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSampleCloud.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSamplePoints.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSegment.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStatTest.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccConsole.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOpen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointSize.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSave.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDelete.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccZoomIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccBilateralFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccUnstack.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPencil.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPlus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMinus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLightParams.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\imLogoV2Qt.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primBox.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primPlane.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCone.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCylinder.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso1.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso2.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primDish.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primSphere.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primTorus.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typePositiveSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeGrayColor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeNormal.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeRgbCcolor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeXCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeYCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeZCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccTracePolyline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\qCompass.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\mapIcon.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\noFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\monitor.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\photo-camera.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\search.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\__\qCC\icons.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\qrc_icons.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_icons.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\bin\rcc.exe --name icons --output E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/qrc_icons.cpp E:/Projects/DownloadProjects/CloudCompare-master/qCC/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\donate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenterAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\theme\snowman.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-closed.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-end.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-more.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-open.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\vline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\gamepad.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\restore.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\square.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\interactors.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\oculus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\nvidia.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSwapUpDown.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\unfoldSmall.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStereo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSORFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCSVFile.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSphere.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLevel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGrid.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\sectionExtraction.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\orthoSections.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccExit.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFullScreen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSunLight.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBox.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxMultExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxSingleExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGear.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCenteredPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOrthoMode32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewerBasedPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbAreaLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbViewportSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCalibratedImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMaterialSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLockSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbPolylineSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOff.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbGBLSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCamSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallTrash.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRectangleSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\im3DxLogo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPolygonSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCancel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPause.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointProperties.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointsAngle.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallReset.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentOut.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallValidate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallBasket.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRevert.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointListPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSfArithmetic.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAddConstSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCCExtract.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClone.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudCloudDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudMeshDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudPrimitiveDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccComputeStat.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDeleteSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFilterByValue.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMerge.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGaussianFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGlobalZoom.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGradient.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccHistogram.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccInteractiveTransformation.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAlign.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccRegister.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSampleCloud.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSamplePoints.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSegment.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStatTest.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccConsole.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOpen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointSize.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSave.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDelete.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccZoomIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccBilateralFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccUnstack.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPencil.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPlus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMinus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLightParams.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\imLogoV2Qt.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primBox.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primPlane.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCone.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCylinder.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso1.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso2.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primDish.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primSphere.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primTorus.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typePositiveSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeGrayColor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeNormal.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeRgbCcolor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeXCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeYCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeZCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccTracePolyline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\qCompass.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\mapIcon.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\noFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\monitor.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\photo-camera.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\search.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\__\qCC\icons.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\qrc_icons.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_icons.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\bin\rcc.exe --name icons --output E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/qrc_icons.cpp E:/Projects/DownloadProjects/CloudCompare-master/qCC/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\donate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenterAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\theme\snowman.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-closed.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-end.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-more.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-open.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\vline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\gamepad.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\restore.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\square.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\interactors.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\oculus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\nvidia.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSwapUpDown.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\unfoldSmall.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStereo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSORFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCSVFile.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSphere.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLevel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGrid.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\sectionExtraction.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\orthoSections.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccExit.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFullScreen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSunLight.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBox.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxMultExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxSingleExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGear.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCenteredPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOrthoMode32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewerBasedPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbAreaLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbViewportSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCalibratedImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMaterialSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLockSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbPolylineSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOff.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbGBLSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCamSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallTrash.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRectangleSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\im3DxLogo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPolygonSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCancel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPause.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointProperties.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointsAngle.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallReset.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentOut.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallValidate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallBasket.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRevert.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointListPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSfArithmetic.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAddConstSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCCExtract.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClone.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudCloudDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudMeshDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudPrimitiveDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccComputeStat.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDeleteSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFilterByValue.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMerge.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGaussianFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGlobalZoom.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGradient.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccHistogram.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccInteractiveTransformation.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAlign.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccRegister.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSampleCloud.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSamplePoints.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSegment.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStatTest.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccConsole.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOpen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointSize.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSave.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDelete.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccZoomIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccBilateralFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccUnstack.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPencil.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPlus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMinus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLightParams.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\imLogoV2Qt.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primBox.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primPlane.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCone.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCylinder.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso1.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso2.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primDish.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primSphere.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primTorus.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typePositiveSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeGrayColor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeNormal.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeRgbCcolor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeXCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeYCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeZCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccTracePolyline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\qCompass.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\mapIcon.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\noFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\monitor.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\photo-camera.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\search.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\__\qCC\icons.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\qrc_icons.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_icons.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\bin\rcc.exe --name icons --output E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/qrc_icons.cpp E:/Projects/DownloadProjects/CloudCompare-master/qCC/icons.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\donate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenterAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\theme\snowman.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-closed.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-end.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-more.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\branch-open.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\QTreeView\vline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\gamepad.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\restore.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\square.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\interactors.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\oculus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\nvidia.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSwapUpDown.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\unfoldSmall.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStereo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSORFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCSVFile.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSphere.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLevel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGrid.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\sectionExtraction.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\orthoSections.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccExit.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFullScreen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSunLight.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBox.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxMultExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClippingBoxSingleExport.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGear.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCenteredPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOrthoMode32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewerBasedPerspective32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbAreaLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbViewportSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbHObjectSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCalibratedImageSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbContainerSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMaterialSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLabelSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCloudSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbLockSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbSubMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMeshSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbMiscGeomSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbOctreeSymbolLocked.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbPolylineSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotAuto.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOff.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPivotOn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbGBLSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\dbCamSensorSymbol.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallTrash.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRectangleSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\im3DxLogo.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPolygonSelect.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallCancel.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPause.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointProperties.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallPointsAngle.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallReset.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallSegmentOut.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallValidate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallBasket.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\smallRevert.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointListPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointPicking.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSfArithmetic.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAddConstSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPickCenter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewXpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewYpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZneg.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewZpos.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCCExtract.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccClone.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudCloudDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudMeshDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccCloudPrimitiveDistance.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccComputeStat.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDeleteSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccFilterByValue.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMerge.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGaussianFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGlobalZoom.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccGradient.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccHistogram.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccInteractiveTransformation.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccAlign.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccRegister.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSampleCloud.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSamplePoints.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSegment.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccStatTest.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccConsole.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccOpen.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPointSize.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccSave.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccDelete.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccZoomIn.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccBilateralFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccUnstack.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPencil.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccPlus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccMinus.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccLightParams.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\imLogoV2Qt.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primBox.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primPlane.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCone.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primCylinder.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso1.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccViewIso2.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primDish.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primSphere.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\primTorus.gif;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typePositiveSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeGrayColor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeNormal.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeRgbCcolor.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeSF.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeXCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeYCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\typeZCoordinate.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\ccTracePolyline.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\qCompass.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\mapIcon.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\noFilter.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\monitor.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\photo-camera.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\search.svg;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_viewer_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_16.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_32.png;E:\Projects\DownloadProjects\CloudCompare-master\qCC\images\icon\cc_icon_64.png;E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\__\qCC\icons.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\qrc_icons.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\cmake\CMakePolicies.cmake;E:\Projects\DownloadProjects\CloudCompare-master\qCC\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\cmake\CMakePolicies.cmake;E:\Projects\DownloadProjects\CloudCompare-master\qCC\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\cmake\CMakePolicies.cmake;E:\Projects\DownloadProjects\CloudCompare-master\qCC\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/ccViewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/ccViewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\cmake\CMakePolicies.cmake;E:\Projects\DownloadProjects\CloudCompare-master\qCC\icons.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ccViewer_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ccViewerApplication.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ccviewer.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ccviewerlog.h" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ccViewerApplication.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\ccviewer.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\main.cpp" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewer.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\ui_ccviewerAbout.h" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ccViewer\qrc_icons.cpp" />
+    <ResourceCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\ccViewer\images\icon\cc_viewer_icon.rc" />
+    <Natvis Include="E:\Projects\DownloadProjects\CloudCompare-master\scripts\windows\qt5.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ZERO_CHECK.vcxproj">
+      <Project>{5A2873B6-733E-3C32-91C7-162677C95F6F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCAppCommon\CCAppCommon.vcxproj">
+      <Project>{CB0C7C19-9C7A-3458-80EC-EDDE16A82A60}</Project>
+      <Name>CCAppCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\CCCoreLib.vcxproj">
+      <Project>{CFFA970F-31AF-3E06-8336-2F71346C9F8B}</Project>
+      <Name>CCCoreLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI.vcxproj">
+      <Project>{26CBAA20-A13A-3DC6-98DA-EF0A62BB5DC4}</Project>
+      <Name>CCPluginAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCFbo\CC_FBO_LIB.vcxproj">
+      <Project>{5D628DD9-8F36-30D9-9C65-4083E840E7F0}</Project>
+      <Name>CC_FBO_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB.vcxproj">
+      <Project>{BC152720-F55D-34DD-B680-5BE47AB59FE0}</Project>
+      <Name>QCC_DB_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_glWindow\QCC_GL_LIB.vcxproj">
+      <Project>{0B859F6E-69DF-32A4-A40C-A1BD9F0C8B7E}</Project>
+      <Name>QCC_GL_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\QCC_IO_LIB.vcxproj">
+      <Project>{7ECB57FE-6DF5-3439-A703-303E28DC7800}</Project>
+      <Name>QCC_IO_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\extern\dxflib\dxflib.vcxproj">
+      <Project>{B451BB0A-44FD-3DD4-8E50-1AC3F83A537A}</Project>
+      <Name>dxflib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\extern\shapelib\shapelib.vcxproj">
+      <Project>{83FB2782-6124-3D8C-B2D8-B38984D32976}</Project>
+      <Name>shapelib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

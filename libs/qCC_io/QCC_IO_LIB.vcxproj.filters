@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\QCC_IO_LIB_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\rply.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\AsciiFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\AsciiOpenDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\AsciiSaveDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\BinFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\ccGlobalShiftManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\ccShiftAndScaleCloudDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\DepthMapFileFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\DxfFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\FileIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\FileIOFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\ImageFileFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\PlyFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\PlyOpenDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\RasterGridFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\ShpDBFFields.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\src\ShpFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\ShpFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\AsciiFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\AsciiOpenDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\AsciiSaveDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\BinFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\ccGlobalShiftManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\ccShiftAndScaleCloudDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\DepthMapFileFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\DxfFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\FileIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\FileIOFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\ImageFileFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\PlyFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\PlyOpenDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\qCC_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\RasterGridFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\rply.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include\ShpDBFFields.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\saveSHPFileDlg.ui" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\saveAsciiFileDlg.ui" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\openPlyFileDlg.ui" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\openAsciiFileDlg.ui" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\importDBFFieldDlg.ui" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\globalShiftAndScaleDlg.ui" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\ui\globalShiftAndScaleAboutDlg.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9FE11829-A663-3D97-9114-0A6F4775E3E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2677CB12-8436-3502-9964-3843DB5BD914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/qCC/translations/CMakeLists.txt

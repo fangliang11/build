@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/Projects/DownloadProjects/CloudCompare-master/cmake/CMakePolicies.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/qCC/CMakeLists.txt
+E:/Projects/DownloadProjects/CloudCompare-master/qCC/icons.qrc
+E:/Projects/DownloadProjects/CloudCompare-master/qCC/pluginManager/pluginManager.qrc

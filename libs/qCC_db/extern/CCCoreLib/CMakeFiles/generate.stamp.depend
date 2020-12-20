@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.19/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CMakePackageConfigHelpers.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/GenerateExportHeader.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/WriteBasicConfigVersionFile.cmake
+D:/Program Files/CMake/share/cmake-3.19/Modules/exportheader.cmake.in
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake
+D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/extern/CCCoreLib/CMakeLists.txt
+E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/extern/CCCoreLib/cmake/CCCoreLibConfig.cmake.in

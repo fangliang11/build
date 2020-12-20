@@ -1,0 +1,147 @@
+{
+	"BUILD_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/CMakeLists.txt",
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/ExampleIOPlugin.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/include/ExampleIOPlugin.h",
+			"MU",
+			"6YEA5652QU/moc_ExampleIOPlugin.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/include/FooFilter.h",
+			"MU",
+			"6YEA5652QU/moc_FooFilter.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen/include",
+	"INCLUDE_DIR_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/ExampleIOPlugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"ExampleIOPlugin_EXPORTS",
+		"NOMINMAX",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"ExampleIOPlugin_EXPORTS",
+		"NOMINMAX",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/extern/CCCoreLib/exports",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/extern/CCCoreLib/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginStub/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_glWindow/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCFbo/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/dxflib/src",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/shapelib",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include/QtCore",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/mkspecs/win32-msvc",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGL",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGLExtensions"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/example/ExampleIOPlugin/CMakeFiles/ExampleIOPlugin_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/src/ExampleIOPlugin.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/src/FooFilter.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/example/ExampleIOPlugin/ui"
+	],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

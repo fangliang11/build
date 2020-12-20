@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_glWindow\QCC_GL_LIB_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\src\ccRenderingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\src\ccGLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\src\ccGuiParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\src\ccGLUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include\ccGLUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include\ccGLWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include\ccGLWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include\ccGuiParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include\ccRenderingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include\qCC_glWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9FE11829-A663-3D97-9114-0A6F4775E3E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2677CB12-8436-3502-9964-3843DB5BD914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

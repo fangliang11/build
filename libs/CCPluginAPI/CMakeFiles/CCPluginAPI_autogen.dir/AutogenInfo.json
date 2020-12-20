@@ -1,0 +1,222 @@
+{
+	"BUILD_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/CMakeLists.txt",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/CCPluginAPI.h",
+			"MU",
+			"6YEA5652QU/moc_CCPluginAPI.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccColorScaleEditorDlg.h",
+			"MU",
+			"6YEA5652QU/moc_ccColorScaleEditorDlg.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccColorScaleEditorWidget.h",
+			"MU",
+			"6YEA5652QU/moc_ccColorScaleEditorWidget.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccColorScaleSelector.h",
+			"MU",
+			"6YEA5652QU/moc_ccColorScaleSelector.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccCommandLineInterface.h",
+			"MU",
+			"6YEA5652QU/moc_ccCommandLineInterface.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccMainAppInterface.h",
+			"MU",
+			"6YEA5652QU/moc_ccMainAppInterface.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccOverlayDialog.h",
+			"MU",
+			"6YEA5652QU/moc_ccOverlayDialog.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccPersistentSettings.h",
+			"MU",
+			"6YEA5652QU/moc_ccPersistentSettings.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccPickingHub.h",
+			"MU",
+			"6YEA5652QU/moc_ccPickingHub.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccPickingListener.h",
+			"MU",
+			"6YEA5652QU/moc_ccPickingListener.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccQtHelpers.h",
+			"MU",
+			"6YEA5652QU/moc_ccQtHelpers.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include/ccRenderToFileDlg.h",
+			"MU",
+			"6YEA5652QU/moc_ccRenderToFileDlg.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen/include",
+	"INCLUDE_DIR_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CCPluginAPI_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CCPLUGIN_API_LIBRARY_BUILD",
+		"CCPluginAPI_EXPORTS",
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"NOMINMAX",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CCPLUGIN_API_LIBRARY_BUILD",
+		"CCPluginAPI_EXPORTS",
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"NOMINMAX",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginStub/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_glWindow/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/extern/CCCoreLib/exports",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/extern/CCCoreLib/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCFbo/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/dxflib/src",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/shapelib",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include/QtCore",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/mkspecs/win32-msvc",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGL",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGLExtensions"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccColorScaleEditorDlg.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccColorScaleEditorWidget.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccColorScaleSelector.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccCommandLineInterface.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccOverlayDialog.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccPickingHub.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/src/ccRenderToFileDlg.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/ui"
+	],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

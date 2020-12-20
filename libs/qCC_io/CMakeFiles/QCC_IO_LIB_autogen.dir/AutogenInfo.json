@@ -1,0 +1,282 @@
+{
+	"BUILD_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/CMakeLists.txt",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/cmake/GDALSupport.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/AsciiFilter.h",
+			"MU",
+			"6YEA5652QU/moc_AsciiFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/AsciiOpenDlg.h",
+			"MU",
+			"6YEA5652QU/moc_AsciiOpenDlg.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/AsciiSaveDlg.h",
+			"MU",
+			"6YEA5652QU/moc_AsciiSaveDlg.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/BinFilter.h",
+			"MU",
+			"6YEA5652QU/moc_BinFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/DepthMapFileFilter.h",
+			"MU",
+			"6YEA5652QU/moc_DepthMapFileFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/DxfFilter.h",
+			"MU",
+			"6YEA5652QU/moc_DxfFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/FileIO.h",
+			"MU",
+			"6YEA5652QU/moc_FileIO.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/FileIOFilter.h",
+			"MU",
+			"6YEA5652QU/moc_FileIOFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/ImageFileFilter.h",
+			"MU",
+			"6YEA5652QU/moc_ImageFileFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/PlyFilter.h",
+			"MU",
+			"6YEA5652QU/moc_PlyFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/PlyOpenDlg.h",
+			"MU",
+			"6YEA5652QU/moc_PlyOpenDlg.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/RasterGridFilter.h",
+			"MU",
+			"6YEA5652QU/moc_RasterGridFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/ShpDBFFields.h",
+			"MU",
+			"6YEA5652QU/moc_ShpDBFFields.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/ShpFilter.h",
+			"MU",
+			"6YEA5652QU/moc_ShpFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/ccGlobalShiftManager.h",
+			"MU",
+			"6YEA5652QU/moc_ccGlobalShiftManager.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/ccShiftAndScaleCloudDlg.h",
+			"MU",
+			"6YEA5652QU/moc_ccShiftAndScaleCloudDlg.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/qCC_io.h",
+			"MU",
+			"6YEA5652QU/moc_qCC_io.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include/rply.h",
+			"MU",
+			"6YEA5652QU/moc_rply.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen/include",
+	"INCLUDE_DIR_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/QCC_IO_LIB_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"NOMINMAX",
+		"QCC_IO_LIBRARY_BUILD",
+		"QCC_IO_LIB_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"NOMINMAX",
+		"QCC_IO_LIBRARY_BUILD",
+		"QCC_IO_LIB_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/dxflib/src",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/shapelib",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/extern/CCCoreLib/exports",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/extern/CCCoreLib/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCFbo/include",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include/QtCore",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/mkspecs/win32-msvc",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGL",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGLExtensions"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_io/CMakeFiles/QCC_IO_LIB_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/AsciiFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/AsciiOpenDlg.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/AsciiSaveDlg.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/BinFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/DepthMapFileFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/DxfFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/FileIO.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/FileIOFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/ImageFileFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/PlyFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/PlyOpenDlg.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/RasterGridFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/ShpDBFFields.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/ShpFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/ccGlobalShiftManager.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/ccShiftAndScaleCloudDlg.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/src/rply.c",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [ "E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/ui" ],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

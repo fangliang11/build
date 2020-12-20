@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{26CBAA20-A13A-3DC6-98DA-EF0A62BB5DC4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CCPluginAPI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CCPluginAPI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CCPluginAPId</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CCPluginAPI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CCPluginAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CCPluginAPI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CCPluginAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CCPluginAPI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CCPluginAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="Debug";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"Debug\";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_Debug;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target CCPluginAPI</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\qCC_glWindow\Debug\QCC_GL_LIBd.lib;..\qCC_io\Debug\QCC_IO_LIBd.lib;..\qCC_db\Debug\QCC_DB_LIBd.lib;..\qCC_db\extern\CCCoreLib\Debug\CCCoreLibd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrentd.lib;..\CCFbo\Debug\CC_FBO_LIBd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensionsd.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Guid.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Cored.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Guid.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Cored.lib;..\qCC_io\extern\dxflib\Debug\dxflibd.lib;..\qCC_io\extern\shapelib\Debug\shapelibd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/Debug/CCPluginAPId.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/Debug/CCPluginAPId.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="Release";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SECURE_SCL=0;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"Release\";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_Release;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target CCPluginAPI</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\qCC_glWindow\Release\QCC_GL_LIB.lib;..\qCC_io\Release\QCC_IO_LIB.lib;..\qCC_db\Release\QCC_DB_LIB.lib;..\qCC_db\extern\CCCoreLib\Release\CCCoreLib.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;..\CCFbo\Release\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;..\qCC_io\extern\dxflib\Release\dxflib.lib;..\qCC_io\extern\shapelib\Release\shapelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/Release/CCPluginAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/Release/CCPluginAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="MinSizeRel";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_MinSizeRel;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target CCPluginAPI</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\qCC_glWindow\MinSizeRel\QCC_GL_LIB.lib;..\qCC_io\MinSizeRel\QCC_IO_LIB.lib;..\qCC_db\MinSizeRel\QCC_DB_LIB.lib;..\qCC_db\extern\CCCoreLib\MinSizeRel\CCCoreLib.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;..\CCFbo\MinSizeRel\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;..\qCC_io\extern\dxflib\MinSizeRel\dxflib.lib;..\qCC_io\extern\shapelib\MinSizeRel\shapelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/MinSizeRel/CCPluginAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/MinSizeRel/CCPluginAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR="RelWithDebInfo";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CCPLUGIN_API_LIBRARY_BUILD;NOMINMAX;_CRT_SECURE_NO_WARNINGS;__STDC_LIMIT_MACROS;QT_USE_QSTRINGBUILDER;CC_CORE_LIB_USES_FLOAT;CC_CORE_LIB_USES_QT_CONCURRENT;QT_CONCURRENT_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_OPENGLEXTENSIONS_LIB;CC_DXF_SUPPORT;CC_SHP_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\";CCPluginAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\include_RelWithDebInfo;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginStub\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_glWindow\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\include;E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\CCFbo\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\include;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\dxflib\src;E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_io\extern\shapelib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtConcurrent;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\include\QtCore;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\.\mkspecs\win32-msvc;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGL;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtGui;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtANGLE;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\include\QtOpenGLExtensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target CCPluginAPI</Message>
+      <Command>setlocal
+cd E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/CCPluginAPI_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\qCC_glWindow\RelWithDebInfo\QCC_GL_LIB.lib;..\qCC_io\RelWithDebInfo\QCC_IO_LIB.lib;..\qCC_db\RelWithDebInfo\QCC_DB_LIB.lib;..\qCC_db\extern\CCCoreLib\RelWithDebInfo\CCCoreLib.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Concurrent.lib;..\CCFbo\RelWithDebInfo\CC_FBO_LIB.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGL.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Widgets.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5OpenGLExtensions.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\Qt5Gui.lib;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\Qt5Core.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Gui.lib;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\\Qt5Core.lib;..\qCC_io\extern\dxflib\RelWithDebInfo\dxflib.lib;..\qCC_io\extern\shapelib\RelWithDebInfo\shapelib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/RelWithDebInfo/CCPluginAPI.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/RelWithDebInfo/CCPluginAPI.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/DownloadProjects/CloudCompare-master -BE:/Projects/DownloadProjects/CloudCompare-master/build --check-stamp-file E:/Projects/DownloadProjects/CloudCompare-master/build/libs/CCPluginAPI/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\Qt\Qt5_14_2\5.14.2\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCPluginAPI\CCPluginAPI_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\CCPluginAPI.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccColorScaleSelector.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccColorScaleEditorDlg.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccColorScaleEditorWidget.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccCommandLineInterface.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccMainAppInterface.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccOverlayDialog.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccPersistentSettings.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccPickingHub.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccPickingListener.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccQtHelpers.h" />
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\include\ccRenderToFileDlg.h" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccColorScaleEditorDlg.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccColorScaleEditorWidget.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccColorScaleSelector.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccCommandLineInterface.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccOverlayDialog.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccPickingHub.cpp" />
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\src\ccRenderToFileDlg.cpp" />
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\ui\colorScaleEditorDlg.ui">
+    </None>
+    <None Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\CCPluginAPI\ui\renderToFileDialog.ui">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\ZERO_CHECK.vcxproj">
+      <Project>{5A2873B6-733E-3C32-91C7-162677C95F6F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\CCCoreLib.vcxproj">
+      <Project>{CFFA970F-31AF-3E06-8336-2F71346C9F8B}</Project>
+      <Name>CCCoreLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\CCFbo\CC_FBO_LIB.vcxproj">
+      <Project>{5D628DD9-8F36-30D9-9C65-4083E840E7F0}</Project>
+      <Name>CC_FBO_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\QCC_DB_LIB.vcxproj">
+      <Project>{BC152720-F55D-34DD-B680-5BE47AB59FE0}</Project>
+      <Name>QCC_DB_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_glWindow\QCC_GL_LIB.vcxproj">
+      <Project>{0B859F6E-69DF-32A4-A40C-A1BD9F0C8B7E}</Project>
+      <Name>QCC_GL_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\QCC_IO_LIB.vcxproj">
+      <Project>{7ECB57FE-6DF5-3439-A703-303E28DC7800}</Project>
+      <Name>QCC_IO_LIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\extern\dxflib\dxflib.vcxproj">
+      <Project>{B451BB0A-44FD-3DD4-8E50-1AC3F83A537A}</Project>
+      <Name>dxflib</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_io\extern\shapelib\shapelib.vcxproj">
+      <Project>{83FB2782-6124-3D8C-B2D8-B38984D32976}</Project>
+      <Name>shapelib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

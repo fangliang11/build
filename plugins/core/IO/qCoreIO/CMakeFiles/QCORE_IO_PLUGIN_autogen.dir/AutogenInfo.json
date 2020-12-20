@@ -1,0 +1,247 @@
+{
+	"BUILD_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO",
+	"CMAKE_EXECUTABLE" : "D:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/CMakeLists.txt",
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/qCoreIO.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/HeightProfileFilter.h",
+			"MU",
+			"6YEA5652QU/moc_HeightProfileFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/MAFilter.h",
+			"MU",
+			"6YEA5652QU/moc_MAFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/MascaretFilter.h",
+			"MU",
+			"6YEA5652QU/moc_MascaretFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/OFFFilter.h",
+			"MU",
+			"6YEA5652QU/moc_OFFFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/ObjFilter.h",
+			"MU",
+			"6YEA5652QU/moc_ObjFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/PDMS/PDMSFilter.h",
+			"MU",
+			"NIVDCK3JZ4/moc_PDMSFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/PDMS/PdmsParser.h",
+			"MU",
+			"NIVDCK3JZ4/moc_PdmsParser.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/PDMS/PdmsTools.h",
+			"MU",
+			"NIVDCK3JZ4/moc_PdmsTools.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/PTXFilter.h",
+			"MU",
+			"6YEA5652QU/moc_PTXFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/STLFilter.h",
+			"MU",
+			"6YEA5652QU/moc_STLFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/SimpleBinFilter.h",
+			"MU",
+			"6YEA5652QU/moc_SimpleBinFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/VTKFilter.h",
+			"MU",
+			"6YEA5652QU/moc_VTKFilter.cpp"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/qCoreIO.h",
+			"MU",
+			"6YEA5652QU/moc_qCoreIO.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen/include",
+	"INCLUDE_DIR_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/QCORE_IO_PLUGIN_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"NOMINMAX",
+		"QCORE_IO_PLUGIN_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"CC_CORE_LIB_USES_FLOAT",
+		"CC_CORE_LIB_USES_QT_CONCURRENT",
+		"CC_DXF_SUPPORT",
+		"CC_SHP_SUPPORT",
+		"NOMINMAX",
+		"QCORE_IO_PLUGIN_EXPORTS",
+		"QT_CONCURRENT_LIB",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_OPENGLEXTENSIONS_LIB",
+		"QT_OPENGL_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"WIN32",
+		"_CRT_SECURE_NO_WARNINGS",
+		"__STDC_LIMIT_MACROS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/include/PDMS",
+		"E:/Projects/DownloadProjects/CloudCompare-master/build/libs/qCC_db/extern/CCCoreLib/exports",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/extern/CCCoreLib/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginAPI/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCPluginStub/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_glWindow/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_db/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/CCFbo/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/include",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/dxflib/src",
+		"E:/Projects/DownloadProjects/CloudCompare-master/libs/qCC_io/extern/shapelib",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtConcurrent",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/include/QtCore",
+		"D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/mkspecs/win32-msvc",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGL",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE",
+		"D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtOpenGLExtensions"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/Qt5_14_2/5.14.2/msvc2017_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 14,
+	"SETTINGS_FILE" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "E:/Projects/DownloadProjects/CloudCompare-master/build/plugins/core/IO/qCoreIO/CMakeFiles/QCORE_IO_PLUGIN_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/HeightProfileFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/MAFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/MascaretFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/OFFFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/ObjFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/PDMS/PDMSFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/PDMS/PdmsParser.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/PDMS/PdmsTools.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/PTXFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/STLFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/SimpleBinFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/VTKFilter.cpp",
+			"MU"
+		],
+		[
+			"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/src/qCoreIO.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : 
+	[
+		"E:/Projects/DownloadProjects/CloudCompare-master/plugins/core/IO/qCoreIO/ui"
+	],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

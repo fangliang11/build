@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\AutoSegmentationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\BoundingBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\CCMiscTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\CCShareable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\ChamferDistanceTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\CloudSamplingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\Delaunay2dMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\DgmOctree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\DgmOctreeReferenceCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\DistanceComputationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\ErrorFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\FastMarching.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\FastMarchingForPropagation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\GeometricalAnalysisTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\KdTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\LocalModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\ManualSegmentationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\MeshSamplingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\Neighbourhood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\NormalDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\NormalizedProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\PointProjectionTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\Polyline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\ReferenceCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\RegistrationTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\SaitoSquaredDistanceTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\ScalarField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\ScalarFieldTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\SimpleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\StatisticalTestingTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\TrueKdTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\WeibullDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\build\libs\qCC_db\extern\CCCoreLib\exports\CCCoreLibExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\AutoSegmentationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\BoundingBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCCoreLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCGeom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCMiscTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCShareable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCToolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CCTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ChamferDistanceTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\CloudSamplingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ConjugateGradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\Delaunay2dMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\DgmOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\DgmOctreeReferenceCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\DistanceComputationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ErrorFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\FastMarching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\FastMarchingForPropagation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\Garbage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericIndexedCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericIndexedCloudPersist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericIndexedMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericOctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericProgressCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GenericTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\GeometricalAnalysisTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\Grid3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\Jacobi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\KdTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\LocalModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ManualSegmentationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\MathTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\MeshSamplingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\Neighbourhood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\NormalDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ParallelSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\PointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\PointCloudTpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\PointProjectionTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\Polyline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\RayAndBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ReferenceCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\RegistrationTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\SaitoSquaredDistanceTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ScalarField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\ScalarFieldTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\SimpleMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\SimpleTriangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\SquareMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\StatisticalTestingTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\TrueKdTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\include\WeibullDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\src\Chi2Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\DownloadProjects\CloudCompare-master\libs\qCC_db\extern\CCCoreLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9FE11829-A663-3D97-9114-0A6F4775E3E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2677CB12-8436-3502-9964-3843DB5BD914}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
